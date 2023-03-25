@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		BBDF3E3429CEC97900E63160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDF3E3229CEC97900E63160 /* Main.storyboard */; };
 		BBDF3E3629CEC97B00E63160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDF3E3529CEC97B00E63160 /* Assets.xcassets */; };
 		BBDF3E3929CEC97B00E63160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDF3E3729CEC97B00E63160 /* LaunchScreen.storyboard */; };
+		BBDF3E4329CECE9F00E63160 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF3E4229CECE9F00E63160 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BBDF3E3529CEC97B00E63160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBDF3E3829CEC97B00E63160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBDF3E3A29CEC97B00E63160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDF3E4229CECE9F00E63160 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BBDF3E2C29CEC97900E63160 /* AppDelegate.swift */,
 				BBDF3E2E29CEC97900E63160 /* SceneDelegate.swift */,
 				BBDF3E3029CEC97900E63160 /* ViewController.swift */,
+				BBDF3E4229CECE9F00E63160 /* SecondViewController.swift */,
 				BBDF3E3229CEC97900E63160 /* Main.storyboard */,
 				BBDF3E3529CEC97B00E63160 /* Assets.xcassets */,
 				BBDF3E3729CEC97B00E63160 /* LaunchScreen.storyboard */,
@@ -102,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = BBDF3E2429CEC97900E63160 /* Build configuration list for PBXProject "DataPass" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDF3E4329CECE9F00E63160 /* SecondViewController.swift in Sources */,
 				BBDF3E3129CEC97900E63160 /* ViewController.swift in Sources */,
 				BBDF3E2D29CEC97900E63160 /* AppDelegate.swift in Sources */,
 				BBDF3E2F29CEC97900E63160 /* SceneDelegate.swift in Sources */,
