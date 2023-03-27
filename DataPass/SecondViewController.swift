@@ -13,7 +13,7 @@ protocol sendMainController {
 
 class SecondViewController: UIViewController{
     
-    var text : String = ""
+    var text : String?
     @IBOutlet weak var msgLabel: UILabel!
     var delegate: sendMainController?
     @IBOutlet weak var userTextField: UITextField!

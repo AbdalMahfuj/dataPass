@@ -29,6 +29,7 @@ class ViewController: UIViewController, sendMainController {
         screen.text = textInput.text!
         screen.delegate = self
         screen.modalTransitionStyle = .crossDissolve
+        self.navigationController?.pushViewController(screen, animated: true)
         present(screen, animated: true, completion: nil)
     }
     // test comment
